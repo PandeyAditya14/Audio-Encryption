@@ -31,10 +31,13 @@ def Pf_func():
         u"6", u"7" , u"8",
     ]
     song = open('./src/example.wav', 'rb').read()
+    plaintxt = open('.Plaintext.txt','w')
     cm.set_alphabet(alphabet)
     plaintext = ""
     for i in song:
         plaintext+=str(i)
+    plaintxt.write(plaintext)
+    plaintxt.close()
     res = encdec(cm, plaintext)
     res = list(map(int,res))
     xb = bytearray()
