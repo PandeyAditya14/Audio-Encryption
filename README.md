@@ -7,11 +7,11 @@ This repository contains code for encrypting audio files using
 
 ## Methodology
 To encrypt audio files(.wav) we read the files as raw bytes or more accurately binary numbers. These binary numbers are then 
-converted into either Hexadecimal or Integer and then these Hexadecimals and Integers are used to encrypted and in all the
+converted into either Hexadecimal or Integer and then these Hexadecimals and Integers are used to encrypt and in all the
 three algorithms our key is 0-9 in scrambled form or in case of hexadecimal \x00-\xFF
 ## Pre-Requisites
 
-We use mainly use 2 crypto libraries:
+We use 2 crypto libraries:
 1. [SecretPy](https://pypi.org/project/secretpy/)
 2. [SymPy](https://www.sympy.org/en/index.html)
 

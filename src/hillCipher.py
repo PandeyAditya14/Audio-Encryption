@@ -34,3 +34,4 @@ def hill_aud():
 		f.write(bytes().fromhex(pt))
 	print("Completed Decryption")
 	print("--------------------------------------------")
+hill_aud()

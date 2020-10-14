@@ -44,5 +44,6 @@ def Pf_func():
     for i in res:
         xb+=(i.to_bytes(4,"little"))
     print(xb)
-    fout = open("dec_pf.wav", "wb")
+    fout = open("./src/dec_pf.wav", "wb")
     fout.write(xb)
+Pf_func()

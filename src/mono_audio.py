@@ -50,3 +50,4 @@ def mono_aud():
 	with open("dec_mono.wav", "wb") as f:
 		f.write(bytes().fromhex(monoalpha.decrypt(ciphertext, key)))
 	print("Decryption Done File Save as dec_mono.wav")
+mono_aud()
