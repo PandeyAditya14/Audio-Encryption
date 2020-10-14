@@ -24,7 +24,7 @@ pip install sympy
 
 ## Usage
 You just need to execute the main.py as it is the wrapper program that abstracts complexities from the user. To run the wrapper
-program execute the follow in command in the project folder.
+program execute the following command in the project folder.
 ```bash
 python3 main.py
 ```
